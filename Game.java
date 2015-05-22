@@ -12,11 +12,13 @@ public class Game extends JPanel
     public void main(String[] args)
     {
         JFrame f = new JFrame("Powder Game");
-        
+        f.setContentPane(new Game());
+        f.setVisible(true);
+        f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
     
     public Game()
     {
-        
+        setSize(800,600);
     }
 }
