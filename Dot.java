@@ -7,15 +7,14 @@
  */
 public abstract class Dot
 {
-    // instance variables - replace the example below with your own
-    private int x,y;
-
-    /**
-     * Constructor for objects of class dot
-     */
-    public Dot()
+    private double dx,dy;
+    public double getVx()
     {
-     
-        
+        return dx;
     }
+    public double getVy()
+    {
+        return dy;
+    }
+    public abstract void interact(Dot d);
 }
