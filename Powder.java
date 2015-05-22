@@ -7,5 +7,8 @@
  */
 public class Powder extends Dot
 {
-    public void interact(Dot 
+    public void interact(Dot d)
+    {
+        
+    }
 }
