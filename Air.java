@@ -1,12 +1,14 @@
 
 /**
- * Write a description of class Powder here.
+ * Write a description of class Air here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Powder extends Dot
+public class Air extends Dot
 {
+    private int p;
+    
     public void interact(Dot d)
     {
         
@@ -14,6 +16,6 @@ public class Powder extends Dot
     
     public int getCode()
     {
-        return 2;
+        return 1;
     }
 }

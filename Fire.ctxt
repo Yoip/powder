@@ -4,4 +4,6 @@ comment0.target=Fire()
 comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Fire\n
 comment1.params=d
 comment1.target=void\ interact(Dot)
-numComments=2
+comment2.params=
+comment2.target=int\ getCode()
+numComments=3

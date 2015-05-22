@@ -22,4 +22,9 @@ public class Fire extends Dot
     {
     
     }
+    
+    public int getCode()
+    {
+        return 2;
+    }
 }

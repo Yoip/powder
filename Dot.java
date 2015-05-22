@@ -20,4 +20,6 @@ public abstract class Dot
     }
     
     public abstract void interact(Dot d);
+    
+    public abstract int getCode();
 }
