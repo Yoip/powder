@@ -8,13 +8,16 @@
 public abstract class Dot
 {
     private double dx,dy;
+    
     public double getVx()
     {
         return dx;
     }
+    
     public double getVy()
     {
         return dy;
     }
+    
     public abstract void interact(Dot d);
 }
